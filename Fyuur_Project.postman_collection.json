@@ -1,0 +1,244 @@
+{
+	"info": {
+		"_postman_id": "083a1ba7-7f0a-4f6b-9dd6-3b702a020bee",
+		"name": "Fyuur_Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Park Square",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Park Square Live Music & Coffee",
+							"type": "text"
+						},
+						{
+							"key": "genres",
+							"value": "Folk;Jazz",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "San Francisco",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "34 Whiskey Moore Ave",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "CA",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "415-000-1234",
+							"type": "text"
+						},
+						{
+							"key": "facebook_link",
+							"value": "https://www.facebook.com/ParkSquareLiveMusicAndCoffee",
+							"type": "text"
+						},
+						{
+							"key": "image_link",
+							"value": "https://images.unsplash.com/photo-1485686531765-ba63b07845a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=747&q=80",
+							"type": "text"
+						},
+						{
+							"key": "seeking_talent",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "seeking_description",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/venues/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"venues",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Artist - Guns N Petals",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Guns N Petals",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "San Francisco",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "CA",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "326-123-5000",
+							"type": "text"
+						},
+						{
+							"key": "image_link",
+							"value": "https://images.unsplash.com/photo-1549213783-8284d0336c4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80",
+							"type": "text"
+						},
+						{
+							"key": "facebook_link",
+							"value": "https://www.facebook.com/GunsNPetals",
+							"type": "text"
+						},
+						{
+							"key": "website",
+							"value": "https://www.gunsnpetalsband.com",
+							"type": "text"
+						},
+						{
+							"key": "seeking_venue",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "seeking_description",
+							"value": "Looking for shows to perform at in the San Francisco Bay Area!",
+							"type": "text"
+						},
+						{
+							"key": "genres",
+							"value": "Rock n Roll",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/artists/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"artists",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Artist - Matt Quevedo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Matt Quevedo",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "New York",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "NY",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "300-400-5000",
+							"type": "text"
+						},
+						{
+							"key": "image_link",
+							"value": "https://images.unsplash.com/photo-1495223153807-b916f75de8c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+							"type": "text"
+						},
+						{
+							"key": "facebook_link",
+							"value": "https://www.facebook.com/mattquevedo923251523",
+							"type": "text"
+						},
+						{
+							"key": "website",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "seeking_venue",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "seeking_description",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "genres",
+							"value": "Jazz",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/artists/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"artists",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
